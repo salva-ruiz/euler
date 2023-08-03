@@ -8,7 +8,8 @@ defmodule Mix.Tasks.Euler do
   @shortdoc "Print the challenges of the Euler project"
 
   @solutions [
-    {SumOfMultiples, :sum_of_multiples_of_3_or_5_below, [1000]}
+    {SumOfMultiples, :sum_of_multiples_of_3_or_5_below, [1000]},
+    {SumOfEvenFibonacciSerie, :sum_of_even_values, [10]}
   ]
 
   @impl Mix.Task
